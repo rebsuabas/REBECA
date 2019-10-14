@@ -10,3 +10,8 @@ CREATE TABLE curso (
     grado integer,
     nombre_curso varchar(70)
 );
+
+CREATE TABLE aula (
+    nombre_aula varchar(20),
+    capacidad integer
+);
