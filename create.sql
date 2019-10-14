@@ -10,3 +10,10 @@ CREATE TABLE curso (
     grado integer,
     nombre_curso varchar(70)
 );
+
+Create table estadio (
+    codigo_est number(4) primary key,
+    nombre varchar(50) not null,
+    localizacion varchar(50),
+    capacidad number(6)
+);
