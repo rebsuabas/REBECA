@@ -5,3 +5,8 @@ CREATE TABLE usuario (
     edad integer,
     direccion varchar(70)
 ); 
+
+CREATE TABLE curso (
+    grado integer,
+    nombre_curso varchar(70)
+);
