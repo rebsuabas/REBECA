@@ -17,8 +17,8 @@ CREATE TABLE aula (
 );
 
  create table estadio (
-     codigo integer primary key,
+     codigo number(4) primary key,
      nombre varchar(50),
-     capacidad integer,
-     localizacion varchar(100)
+     capacidad number(6),
+     localizacion varchar(100) not null
  );
