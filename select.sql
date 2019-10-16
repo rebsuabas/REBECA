@@ -7,10 +7,6 @@ select codigo, nombre, localizacion
 from estadio
 where codigo=4455;
 
-SELECT nombre_curso
-FROM curso
-WHERE grado="2";
-
 SELECT *
 FROM aula
 WHERE capacidad > 14;
