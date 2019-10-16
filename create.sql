@@ -15,3 +15,10 @@ CREATE TABLE aula (
     nombre_aula varchar(20),
     capacidad integer
 );
+
+ create table estadio (
+     codigo integer primary key,
+     nombre varchar(50),
+     capacidad integer,
+     localizacion varchar(100)
+ );
